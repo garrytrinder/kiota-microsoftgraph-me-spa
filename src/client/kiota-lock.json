@@ -1,0 +1,30 @@
+{
+  "descriptionHash": "D5788CBE9F1E666AAABB7C09F5FB924F0E3CC7AE90DB61C96F9FDF376F72F6403F88D7BA414BFD589F50C4CCD8D1AE7A3BEB7D1C02CE7870319296C170D54FCA",
+  "descriptionLocation": "https://raw.githubusercontent.com/microsoftgraph/msgraph-metadata/master/openapi/v1.0/openapi.yaml",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.0.0.0",
+  "clientClassName": "ApiClient",
+  "clientNamespaceName": "ApiSdk",
+  "language": "TypeScript",
+  "usesBackingStore": false,
+  "includeAdditionalData": false,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "application/xml",
+    "text/plain",
+    "text/xml",
+    "text/yaml"
+  ],
+  "includePatterns": [
+    "/me"
+  ],
+  "excludePatterns": null
+}

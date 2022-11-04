@@ -1,0 +1,35 @@
+{
+  "name": "kiota-microsoftgraph-me-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "keywords": [
+    "kiota",
+    "microsoft graph",
+    "microsoft 365",
+    "profile",
+    "openapi",
+    "azure",
+    "spa",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Garry Trinder",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^3.0.0",
+    "@microsoft/kiota-abstractions": "^1.0.0-preview.6",
+    "@microsoft/kiota-authentication-azure": "^1.0.0-preview.5",
+    "@microsoft/kiota-http-fetchlibrary": "^1.0.0-preview.8",
+    "@microsoft/kiota-serialization-json": "^1.0.0-preview.8",
+    "@microsoft/kiota-serialization-text": "^1.0.0-preview.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "buffer": "^6.0.3",
+    "parcel": "^2.7.0"
+  }
+}
